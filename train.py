@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 import joblib
 import numpy as np
+import os
 
 # ─── Synthetic training data ───────────────────────────────────────────────────
 # Features: [age, tenure, monthly_charges, num_products, has_internet]
@@ -27,6 +28,8 @@ pipeline = Pipeline([
 ])
 
 pipeline.fit(X, y)
+
+os.makedirs('models', exist_ok=True
 
 joblib.dump(pipeline, 'models/churn_model.pkl')
 print("✅ Churn model pipeline saved to models/churn_model.pkl!")
