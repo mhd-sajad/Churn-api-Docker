@@ -1,5 +1,4 @@
 
-```markdown
 # 🔮 Customer Churn Prediction API
 
 A production-ready inference microservice developed by Muhammed Sajad, predicting the probability of customer churn in real-time. This project is a core implementation within the broader MACHINE LEARNING JOURNEY[cite: 2], demonstrating the transition from local model development to a fully containerized, cloud-hosted architecture[cite: 14].
