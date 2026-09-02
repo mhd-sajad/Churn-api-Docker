@@ -29,7 +29,7 @@ pipeline = Pipeline([
 
 pipeline.fit(X, y)
 
-os.makedirs('models', exist_ok=True
+os.makedirs('models', exist_ok=True)
 
 joblib.dump(pipeline, 'models/churn_model.pkl')
 print("✅ Churn model pipeline saved to models/churn_model.pkl!")
